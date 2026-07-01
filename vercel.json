@@ -1,12 +1,27 @@
 {
-  "version": 2,
-  "buildCommand": "cd frontend && yarn install && yarn build",
-  "outputDirectory": "frontend/build",
-  "installCommand": "cd frontend && yarn install",
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "frontend/build/index.html"
-    }
-  ]
+    "services": {
+        "frontend": {
+            "root": "frontend",
+            "framework": "create-react-app"
+        },
+        "backend": {
+            "root": "backend"
+        }
+    },
+    "rewrites": [
+        {
+            "source": "/api(/.*)?",
+            "destination": {
+                "type": "service",
+                "service": "backend"
+            }
+        },
+        {
+            "source": "/(.*)",
+            "destination": {
+                "type": "service",
+                "service": "frontend"
+            }
+        }
+    ]
 }
