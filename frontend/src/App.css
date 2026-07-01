@@ -1,0 +1,25 @@
+/* App-level decorative styles (mission control aesthetic) */
+.App { background: transparent; }
+
+.kbd-key {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: hsl(var(--muted));
+  border: 1px solid hsl(var(--border));
+  color: hsl(var(--muted-foreground));
+}
+
+.ticker {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(hsl(var(--border) / 0.4) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--border) / 0.4) 1px, transparent 1px);
+  background-size: 48px 48px;
+  background-position: -1px -1px;
+}
