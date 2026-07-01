@@ -6,7 +6,6 @@ An intelligent climate intelligence platform that combines satellite observation
 
 🌐 **Live Demo:** https://climate-twin-xeg4.vercel.app
 
----
 
 ## 📌 Overview
 
@@ -14,7 +13,6 @@ Bharat Climate Twin is a full-stack AI-powered platform designed to help Farmers
 
 The platform integrates multiple climate datasets into a single Digital Twin, enabling users to monitor weather patterns, assess climate risks, simulate future warming scenarios, and receive role-specific recommendations.
 
----
 
 ## ✨ Key Features
 
@@ -28,8 +26,6 @@ The platform integrates multiple climate datasets into a single Digital Twin, en
 - 📰 Daily AI Climate Bulletin
 - 📊 Complete Data Provenance
 - 🗺️ Interactive Climate Maps
-
----
 
 ## 🛠️ Tech Stack
 
@@ -62,51 +58,6 @@ The platform integrates multiple climate datasets into a single Digital Twin, en
 - Vercel
 - Render
 
----
-
-## 🖥️ Project Screenshots
-
-### Landing Page
-
-![Landing](images/landing.png)
-
----
-
-### Scientist Dashboard
-
-![Scientist](images/scientist.png)
-
----
-
-### Farmer Console
-
-![Farmer](images/farmer.png)
-
----
-
-### Policymaker Dashboard
-
-![Policy](images/policy.png)
-
----
-
-### AI Climate Advisor
-
-![Advisor](images/advisor.png)
-
----
-
-### Climate Scenario Simulator
-
-![Scenario](images/scenario.png)
-
----
-
-### Daily AI Bulletin
-
-![Bulletin](images/bulletin.png)
-
----
 
 ## 🏗️ System Architecture
 
@@ -157,7 +108,6 @@ pip install -r requirements.txt
 uvicorn server:app --reload
 ```
 
----
 
 ## 🔑 Environment Variables
 
@@ -175,7 +125,6 @@ GROQ_API_KEY=
 CORS_ORIGINS=
 ```
 
----
 
 ## 🔮 Future Enhancements
 
@@ -187,8 +136,6 @@ CORS_ORIGINS=
 - Disaster Response Workflows
 - AI-powered Climate Forecasting
 
----
-
 ## 👩‍💻 Developer
 
 **Pearl Malhotra**
@@ -197,7 +144,6 @@ B.Tech Artificial Intelligence & Data Science
 
 Amrita Vishwa Vidyapeetham
 
----
 
 ## ⭐ Support
 
